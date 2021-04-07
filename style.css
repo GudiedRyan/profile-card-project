@@ -1,0 +1,40 @@
+.attribution { font-size: 11px; text-align: center; }
+    
+.attribution a { color: hsl(228, 45%, 44%); }
+
+* {
+    background-image: url("images/bg-pattern-top.svg"), url("images/bg-pattern-bottom.svg");
+}
+
+.grid-container {
+    background-image: url("images/bg-pattern-card.svg");
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+}
+
+.grid-item {
+    background-color: white;
+    min-height: 100;
+    min-width: 100;
+    padding: 20px;
+    
+}
+
+.vic img {
+    border-radius: 50%;
+    border: 5px solid white ;
+}
+
+tr.border-bottom {
+    border-bottom: 1px solid black;
+}
+
+/* .grid-item-1 th {
+    grid-template-rows: 1;
+}
+
+.grid-item-2 th {
+    grid-template-rows: 2;
+} */
